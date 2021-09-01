@@ -5,7 +5,7 @@ part of masamune_ads.others;
 /// This handle Admob and Adsense.
 ///
 /// Execute [initialize] to initialize.
-final adsModelProvider = ModelProvider((_) => AdsModel());
+final adsModelProvider = ChangeNotifierProvider((_) => AdsModel());
 
 /// Class for managing ads.
 ///
